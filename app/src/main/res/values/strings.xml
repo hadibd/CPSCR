@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">CPSCR</string>
+    <string name="college_name"><![CDATA[Cantonment Public School & College, Rangpur]]></string>
+    <string name="dummu_h">About Us</string>
+    <string name="school_staff">School Staff</string>
+    <string name="school_staff_phone_1">01521466603</string>
+    <string name="school_staff_name_1">Zakaria Hossain</string>
+    <string name="designation">Web and Android Developer</string>
+    <string name="description">Shine Up Labs</string>
+    <string name="make_a">Make a</string>
+    <string name="Send_an">Send an</string>
+    <string name="Call">Call</string>
+    <string name="SMS">SMS</string>
+    <string name="welcome">Welcome To</string>
+    <string name="ShineUpLab">Shine Up Labs</string>
+    <string name="developed_by">Developed By</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="mBanking">Tcash, bKash, Rocket, Nogod</string>
+    <string name="teacher">Teacher List</string>
+    <string name="teacher_list_school">Teacher List\nSchool</string>
+    <string name="class_teacher_nprimary">Class Teacher\nPrimary</string>
+    <string name="class_teacher_nsecondary">Class Teacher\nSecondary</string>
+    <string name="teacher_list_college">Teacher List College</string>
+    <string name="class_teacher_neleven">Class Teacher\nEleven</string>
+    <string name="class_teacher_ntwelve">Class Teacher\nTwelve</string>
+    <string name="photo_gallery">Photo Gallery</string>
+    <string name="bangobondhu_corner">Bangobondhu Corner</string>
+    <string name="video_gallery">Video Gallery</string>
+    <string name="video_channel">Video Channel</string>
+
+    <array name="home_page_list">
+        <item>Chief Patron</item>
+        <item>Chairman</item>
+        <item>Principal</item>
+        <item>Vice Principal (College)</item>
+        <item>Vice Principal (School)</item>
+        <item>Teacher List</item>   <!--SL No. 6 / Index Start 5-->
+        <item>Office Staff</item>   <!--SL No. 7 / Index Start 6-->
+        <item>Notice Board</item>
+        <item>Syllabus (School)</item>
+        <item>Syllabus (College)</item>
+        <item>Monthly Fees</item><!--SL No. 11 / Index Start 10-->
+        <item>Year Calender</item>
+        <item>Digital Content</item>
+        <item>Fees Payment</item><!--SL No. 14 / Index Start 13-->
+        <item>Teacher Login</item>
+        <item>Student Login</item>
+        <item>মুক্তিযুদ্ধ ১৯৭১</item>
+        <item>বঙ্গবন্ধু শেখ মুজিবুর রহমান</item>
+        <item>৭ই মার্চ ঐতিহাসিক ভাষণ</item>
+        <item>Photo Gallery</item>
+        <item>Visit Website</item>
+        <item>Todo List</item>
+        <item>Arrival &amp; Departure</item>
+        <item>Admission Form</item>
+        <item>Location</item>
+        <item>For any query</item>
+    </array>
+
+    <array name="url">
+        <item>http://cpscr.edu.bd/principals-preface/</item> <!--SL No. 1 / Index Start 0-->
+        <item>http://cpscr.edu.bd/administration/president/</item> <!--SL No. 2 / Index Start 1-->
+        <item>http://cpscr.edu.bd/administration/principal/</item> <!--SL No. 3 / Index Start 2-->
+        <item>http://cpscr.edu.bd/vice-principal-preface-school/</item> <!--SL No. 4 / Index Start 3-->
+        <item>http://cpscr.edu.bd/administration/vice-principal-school/</item> <!--SL No. 5 / Index Start 4-->
+        <item>Teacher List</item> <!--SL No. 6 / Index Start 5-->
+        <item>Office Staff</item> <!--SL No. 7 / Index Start 6-->
+        <item>http://cpscr.edu.bd/download/notices/</item> <!--SL No. 8 / Index Start 7-->
+        <item>http://cpscr.edu.bd/academic/syllabus/school-syllabus/</item> <!--SL No. 9 / Index Start 8-->
+        <item>http://cpscr.edu.bd/academic/syllabus/college-syllabus/</item> <!--SL No. 10 / Index Start 9-->
+        <item>http://cpscr.edu.bd/mobile-banking/</item> <!--SL No. 11 / Index Start 10-->
+        <item>http://cpscr.edu.bd/academic/year-calender/</item> <!--SL No. 12 / Index Start 11-->
+        <item>http://cpscr.edu.bd/digital-content-class-subject/class-eleven-content/</item> <!--SL No. 13 / Index Start 12-->
+        <item>Tcash, bKash, Rocket, Nogod</item> <!--SL No. 14 / Index Start 13-->
+        <item>http://103.138.146.39/cpscr</item> <!--SL No. 15 / Index Start 14-->
+        <item>http://103.138.146.39/cpscrMobileApps</item> <!--SL No. 16 / Index Start 15-->
+        <item>https://bn.wikipedia.org/wiki/Bangladesh_Liberation_War</item> <!--SL No. 17 / Index Start 16-->
+        <item>https://bn.wikipedia.org/wiki/Sheikh_Mujibur_Rahman</item> <!--SL No. 18 / Index Start 17-->
+        <item>https://en.wikipedia.org/wiki/7_March_Speech_of_Bangabandhu</item> <!--SL No. 19 / Index Start 18-->
+        <item>Photo Gallery</item> <!--SL No. 20 / Index Start 19-->
+        <item>https://cpscr.edu.bd</item> <!--SL No. 21 / Index Start 20-->
+        <item>Nill</item> <!--SL No. 22 / Index Start 21-->
+        <item>http://cpscr.edu.bd/download/arrival-and-departure/</item> <!--SL No. 23 / Index Start 22-->
+        <item>http://cpscr.edu.bd/download/admission-forms/</item> <!--SL No. 24 / Index Start 23-->
+        <item>Location</item> <!--SL No. 25 / Index Start 24-->
+        <item>For Any Query</item> <!--SL No. 26 / Index Start 25-->
+    </array>
+
+    <string name="ad_Unit_Id">ca-app-pub-3079847466411770/2735073155</string>
+    <string name="app_ID">ca-app-pub-3079847466411770~9974187352</string>
+
+    <string name="TEST_AdUnitId">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="fees_payment">We accept</string>
+
+    <string name="url_rocket">https://www.dutchbanglabank.com/rocket/rocket.html</string>
+    <string name="url_bcash">https://www.bkash.com/</string>
+    <string name="url_tcash">https://www.tblbd.com/t-cash/</string>
+    <string name="url_nagod">https://nagad.com.bd/</string>
+    <string name="office_staff">Office Staff</string>
+    <string name="office_staff_4th_class">Staff\n4th Class</string>
+
+
+    <string name="office_staff1_url">http://cpscr.edu.bd/administration/office-staff/</string>
+    <string name="office_staff1_url2">http://cpscr.edu.bd/administration/staff-4th-class/</string>
+    <string name="assistant_accountant">Assistant Accountant</string>
+    <string name="admin_officer">Admin Officer</string>
+    <string name="confidential_staff">Confidential Staff</string>
+    <string name="technical_support">Technical Support</string>
+    <string name="assistant_accountant_no">0171228689</string>
+    <string name="admin_officer_no">01769660137</string>
+    <string name="confidential_staff_no">01769660138</string>
+    <string name="technical_support_no1">01730881820</string>
+    <string name="technical_support2">Technical Support 2</string>
+    <string name="technical_support_no2">01730881829</string>
+
+</resources>

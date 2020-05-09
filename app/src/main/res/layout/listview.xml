@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center_vertical"
+    android:id="@+id/ListLayoutId"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/school_eight"
+        android:layout_marginStart="20dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"/>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/patua"
+        android:text="Testing Purpose"
+        android:textSize="18sp"
+        android:id="@+id/ListLayoutTvId"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

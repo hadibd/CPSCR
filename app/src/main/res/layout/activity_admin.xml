@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_primary"
+    tools:context=".Admin">
+
+    <LinearLayout
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:weightSum="5"
+            android:background="@drawable/hotlines_list_bg"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <LinearLayout
+                android:layout_marginStart="32dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="@font/breeserif"
+                    android:textColor="#1D6C20"
+                    android:text="@string/assistant_accountant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#1D6C20"
+                    android:textSize="18sp"
+                    android:text="@string/assistant_accountant_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:onClick="Accountant"
+                    android:id="@+id/CallButton1"
+                    android:src="@drawable/ic_phone_in_talk_black_24dp"
+                    android:background="@drawable/hotlines_list_btn_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:weightSum="5"
+            android:background="@drawable/hotlines_list_bg"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <LinearLayout
+                android:layout_marginStart="32dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="@font/breeserif"
+                    android:textColor="#1D6C20"
+                    android:text="@string/admin_officer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/admin_officer_no"
+                    android:textColor="#1D6C20"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:onClick="Admin"
+                    android:id="@+id/CallButton2"
+                    android:src="@drawable/ic_phone_in_talk_black_24dp"
+                    android:background="@drawable/hotlines_list_btn_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:weightSum="5"
+            android:background="@drawable/hotlines_list_bg"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <LinearLayout
+                android:layout_marginStart="32dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="@font/breeserif"
+                    android:textColor="#1D6C20"
+                    android:text="@string/confidential_staff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/confidential_staff_no"
+                    android:textColor="#1D6C20"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:onClick="ConfidentialStaff"
+                    android:id="@+id/CallButton3"
+                    android:src="@drawable/ic_phone_in_talk_black_24dp"
+                    android:background="@drawable/hotlines_list_btn_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:weightSum="5"
+            android:background="@drawable/hotlines_list_bg"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <LinearLayout
+                android:layout_marginStart="32dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="@font/breeserif"
+                    android:textColor="#1D6C20"
+                    android:text="@string/technical_support"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/technical_support_no1"
+                    android:textColor="#1D6C20"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:onClick="Technitian1"
+                    android:id="@+id/CallButton4"
+                    android:src="@drawable/ic_phone_in_talk_black_24dp"
+                    android:background="@drawable/hotlines_list_btn_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:weightSum="5"
+            android:background="@drawable/hotlines_list_bg"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <LinearLayout
+                android:layout_marginStart="32dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="@font/breeserif"
+                    android:textColor="#1D6C20"
+                    android:text="@string/technical_support2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#1D6C20"
+                    android:textSize="18sp"
+                    android:text="@string/technical_support_no2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:onClick="Technitian1"
+                    android:id="@+id/CallButton5"
+                    android:src="@drawable/ic_phone_in_talk_black_24dp"
+                    android:background="@drawable/hotlines_list_btn_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
